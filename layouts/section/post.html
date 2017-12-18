@@ -2,10 +2,17 @@
 {{ partial "navbar.html" . }}
 
 {{ partial "header_image.html" . }}
+
+
 <div class="container">
 <div class="universal-wrapper">
 
-  <h1>{{ .Title | default (i18n "posts") }}</h1>
+  <!-- <h1>{{ .Title | default (i18n "posts") }}</h1>-->
+
+  <div class="universal-wrapper">
+  {{ $params := dict "root" . "page" . "title" "Tags"}}
+  {{ partial "widgets/tag_cloud.html" $params}}
+  </div>
 
   {{ with .Content }}
   <div class="article-style" itemprop="articleBody">{{ . }}</div>

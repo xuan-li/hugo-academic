@@ -1,9 +1,10 @@
 {{ $ := .root }}
 {{ $page := .page }}
+{{ $title := .title }}
 
 <div class="row">
   <div class="col-xs-12 col-md-4 section-heading">
-    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    <h1>{{ with $title }}{{ . | markdownify }}{{ end }}</h1>
     {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
   </div>
   <div class="col-xs-12 col-md-8">
