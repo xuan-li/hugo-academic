@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.25rem; 
 }
 h2 {
   margin-top: 1rem;
@@ -85,7 +85,7 @@ h2 {
 }
 h3 {
   font-weight: 700;
-  margin-top: 1.5rem;
+  margin-top: 1.5rem; /************* 1.5 ****** modified by Xuan ******/
   font-size: 1.25rem;
 }
 h4, h5, h6 {
@@ -109,7 +109,7 @@ a:focus {
 img,
 video {
   height: auto;
-  max-width: 100%;
+  max-width: 100%; 
   display: block;
 }
 
@@ -234,13 +234,13 @@ blockquote p:last-child {
 }
 
 .section-heading h1 {
-  margin: 0 0 15px 0;
-  font-size: 2rem;
+  margin: 0 0 15px 0; /******************* modified by Xuan ******/
+  font-size: 1.7rem;  
 }
 
 .section-heading p {
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.1rem; 
   color: #b2b2b2;
 }
 
@@ -505,7 +505,7 @@ article {
 
 .pub-icon {
   color: rgba(0, 0, 0, 0.54);
-  font-size: 0.81em;
+  font-size: 1.0em; /******************* modified by Xuan ******/
   padding-top: 6px;
 }
 
@@ -531,6 +531,7 @@ article {
 
 .pub-list-item {
   margin-bottom: 40px;
+  font-size: 1.2em; /******* modified by Xuan ***/
 }
 
 .pub-list-item .pub-abstract {
